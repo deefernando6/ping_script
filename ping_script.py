@@ -14,3 +14,6 @@ def ping(host):
         
     command = ['ping', '-n', '5', host]
 	return subprocess.call(command)
+	
+	
+print(ping(host))
